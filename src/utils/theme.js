@@ -1,10 +1,10 @@
 const theme = {
-  primary: '',
-  secondary: '',
-  body: '',
-  bodyColor: '',
-  linkColor: '',
-  linkColorHover: '',
+  primary: '#efda5a',
+  secondary: '#383d3d',
+  body: '#fafafa',
+  bodyColor: '#34475e',
+  linkColor: '#10bc9b',
+  linkColorHover: '#10bc9b',
   transition: 'all .3s ease'
 };
 
@@ -13,20 +13,16 @@ const typography = {
   baseLineHeight: 1.625,
   googleFonts: [
     {
-      name: 'Signika Negative',
-      styles: ['700']
-    },
-    {
-      name: 'Lato',
+      name: 'Yanone Kaffeesatz',
       styles: ['400', '700']
     },
     {
       name: 'Source Code Pro',
-      styles: ['400']
+      styles: ['400', '700']
     }
   ],
   headerFontFamily: [
-    'Signika Negative',
+    'Yanone Kaffeesatz',
     '-apple-system',
     'BlinkMacSystemFont',
     'Segoe UI',
@@ -39,7 +35,7 @@ const typography = {
     'Segoe UI Symbol'
   ],
   bodyFontFamily: [
-    'Lato',
+    'Source Code Pro',
     '-apple-system',
     'BlinkMacSystemFont',
     'Segoe UI',
@@ -55,7 +51,23 @@ const typography = {
   headerWeight: 600,
   bodyWeight: 'normal',
   boldWeight: 600,
-  blockMarginBottom: 1 / 2
+  blockMarginBottom: 1 / 2,
+  overrideStyles: () => ({
+    a: {
+      color: theme.linkColor,
+      textDecoration: 'none'
+    },
+    'a:hover,a:active': {
+      color: theme.linkColorHover,
+      textDecoration: 'underline'
+    },
+    'h1,h2,h3,h4,h5,h6': {
+      color: theme.secondary
+    },
+    h1: {
+      backgroundColor: theme.primary
+    }
+  })
 };
 
 export { typography };
