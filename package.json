@@ -1,0 +1,33 @@
+{
+  "name": "bogdanlazar.com",
+  "description": "BogdanLazar.com website",
+  "version": "1.0.0",
+  "author": "Bogdan Lazar <bogdan@bogdanlazar.com>",
+  "private": true,
+  "dependencies": {
+    "gatsby": "^1.9.223",
+    "gatsby-link": "^1.6.38",
+    "gatsby-plugin-react-helmet": "^2.0.6",
+    "gatsby-plugin-styled-components": "^2.0.9",
+    "gatsby-plugin-typography": "^1.7.18",
+    "gatsby-source-filesystem": "^1.5.27",
+    "gatsby-transformer-remark": "^1.7.36",
+    "react-helmet": "^5.2.0",
+    "styled-components": "^3.2.1"
+  },
+  "keywords": [
+    "gatsby",
+    "website"
+  ],
+  "license": "MIT",
+  "scripts": {
+    "build": "gatsby build",
+    "develop": "gatsby develop",
+    "format": "frontwerk format",
+    "lint": "frontwerk lint"
+  },
+  "devDependencies": {
+    "frontwerk": "^1.0.4",
+    "prettier": "^1.11.1"
+  }
+}

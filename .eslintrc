@@ -1,0 +1,18 @@
+{
+  "extends": "./node_modules/frontwerk/eslint.js",
+  "rules": {
+    "prettier/prettier": "error",
+    "import/no-extraneous-dependencies": "off",
+    "react/jsx-filename-extension": "off",
+    "jsx-a11y/anchor-is-valid": "off",
+    "react/prop-types": "off",
+    "react/no-danger": "off",
+    "no-unused-vars": ["error", {
+      "varsIgnorePattern": "Fragment",
+      "argsIgnorePattern": "^_"
+    }]
+  },
+  "globals": {
+    "graphql": true
+  }
+}
