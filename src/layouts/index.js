@@ -1,24 +1,41 @@
 import React from 'react';
 import Helmet from 'react-helmet';
 
-import Header from '../components/Header';
 import './index.css';
 
+import Wrapper, { Footer } from '../components/Layout';
+
 const TemplateWrapper = ({ children }) => (
-  <div>
+  <Wrapper>
     <Helmet title="BogdanLazar.com" />
-    <Header />
-    <div
-      style={{
-        margin: '0 auto',
-        maxWidth: 960,
-        padding: '0px 1.0875rem 1.45rem',
-        paddingTop: 0
-      }}
-    >
-      {children()}
-    </div>
-  </div>
+    {children()}
+
+    <Footer>
+      <h3>Get in touch</h3>
+      <ul>
+        <li>
+          <a href="https://github.com/tricinel" title="Github">
+            Github
+          </a>
+        </li>
+        <li>
+          <a href="https://www.linkedin.com/in/tricinel" title="LinkedIn">
+            LinkedIn
+          </a>
+        </li>
+        <li>
+          <a href="https://twitter.com/tricinel" title="Twitter">
+            Twitter
+          </a>
+        </li>
+        <li>
+          <a href="&#109;&#97;&#105;&#108;&#116;&#111;&#58;&#98;&#111;&#103;&#100;&#97;&#110;&#64;&#98;&#111;&#103;&#100;&#97;&#110;&#108;&#97;&#122;&#97;&#114;&#46;&#99;&#111;&#109;">
+            Let&apos;s talk!
+          </a>
+        </li>
+      </ul>
+    </Footer>
+  </Wrapper>
 );
 
 export default TemplateWrapper;
