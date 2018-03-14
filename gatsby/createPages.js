@@ -27,7 +27,8 @@ module.exports = async ({ boundActionCreators: { createPage }, graphql }) =>
         result.data.allMarkdownRemark.edges.forEach(({ node }) => {
           createPage({
             path: node.frontmatter.path,
-            component: pageTemplate
+            component: pageTemplate,
+            layout: 'blog'
           });
         });
       })
