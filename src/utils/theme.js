@@ -9,8 +9,8 @@ const theme = {
 };
 
 const typography = {
-  baseFontSize: '18px',
-  baseLineHeight: 1.625,
+  baseFontSize: '22px',
+  baseLineHeight: 1.9,
   googleFonts: [
     {
       name: 'Yanone Kaffeesatz',
@@ -52,7 +52,7 @@ const typography = {
   bodyWeight: 'normal',
   boldWeight: 600,
   blockMarginBottom: 1 / 2,
-  overrideStyles: () => ({
+  overrideStyles: ({ rhythm }) => ({
     a: {
       color: theme.linkColor,
       textDecoration: 'none'
@@ -62,10 +62,18 @@ const typography = {
       textDecoration: 'underline'
     },
     'h1,h2,h3,h4,h5,h6': {
-      color: theme.secondary
+      color: theme.secondary,
+      fontSize: rhythm(1),
+      fontWeight: 400
     },
-    h1: {
-      backgroundColor: theme.primary
+    hr: {
+      background: `${theme.body}`,
+      border: 0,
+      borderBottom: `3px dashed ${theme.primary}`,
+      marginTop: rhythm(2)
+    },
+    'ul,ol': {
+      marginLeft: rhythm(0.5)
     }
   })
 };
