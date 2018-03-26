@@ -1,10 +1,8 @@
 import React from 'react';
 import styled from 'styled-components';
 
-import { rhythm } from '../../utils/typography';
-
 const StyledSection = styled.section`
-  padding: ${rhythm(1)} 0;
+  padding: 0 1.4em;
 `;
 
 const Section = ({ children }) => (

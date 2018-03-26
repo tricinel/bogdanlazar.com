@@ -70,7 +70,8 @@ const typography = {
       background: `${theme.body}`,
       border: 0,
       borderBottom: `3px dashed ${theme.primary}`,
-      marginTop: rhythm(2)
+      marginBottom: rhythm(1),
+      marginTop: rhythm(1)
     },
     'ul,ol': {
       marginLeft: rhythm(0.5)
