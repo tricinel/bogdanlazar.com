@@ -9,23 +9,23 @@ const IndexPage = () => (
   <div>
     <Header title="I&apos;m a dreamer and a human" />
 
-    <p>
-      I design and I write code. It’s a daily challenge. And yes, I mess up
-      quite often. I&apos;m a <Highlight>human</Highlight>.
-    </p>
+    <Section>
+      <p>
+        I design and I write code. It’s a daily challenge. And yes, I mess up
+        quite often. I&apos;m a <Highlight>human</Highlight>.
+      </p>
 
-    <p>
-      And I dream. I dream of Apple&apos;s great product experiences. I dream of
-      Musk’s Tesla or his solar powered batteries. I&apos;m a{' '}
-      <Highlight>dreamer</Highlight>.
-    </p>
+      <p>
+        And I dream. I dream of Apple&apos;s great product experiences. I dream
+        of Musk’s Tesla or his solar powered batteries. I&apos;m a{' '}
+        <Highlight>dreamer</Highlight>.
+      </p>
 
-    <p>
-      Curious what I&apos;m doing <Highlight>right now</Highlight>? Check out my{' '}
-      <Link to="/now">Now</Link> page.
-    </p>
-
-    <hr />
+      <p>
+        Curious what I&apos;m doing <Highlight>right now</Highlight>? Check out
+        my <Link to="/now">Now</Link> page.
+      </p>
+    </Section>
 
     <Section>
       <h2>Work</h2>
