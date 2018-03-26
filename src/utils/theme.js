@@ -1,6 +1,7 @@
 const theme = {
   primary: '#efda5a',
   secondary: '#383d3d',
+  accent: '#34485e',
   body: '#fafafa',
   bodyColor: '#34475e',
   linkColor: '#10bc9b',
@@ -17,7 +18,7 @@ const typography = {
       styles: ['400', '700']
     },
     {
-      name: 'Source Code Pro',
+      name: 'PT Serif',
       styles: ['400', '700']
     }
   ],
@@ -35,7 +36,7 @@ const typography = {
     'Segoe UI Symbol'
   ],
   bodyFontFamily: [
-    'Source Code Pro',
+    'PT Serif',
     '-apple-system',
     'BlinkMacSystemFont',
     'Segoe UI',
@@ -62,16 +63,15 @@ const typography = {
       textDecoration: 'underline'
     },
     'h1,h2,h3,h4,h5,h6': {
-      color: theme.secondary,
+      borderBottom: `5px solid ${theme.primary}`,
+      color: theme.accent,
+      display: 'inline-block',
       fontSize: rhythm(1),
-      fontWeight: 400
-    },
-    hr: {
-      background: `${theme.body}`,
-      border: 0,
-      borderBottom: `3px dashed ${theme.primary}`,
-      marginBottom: rhythm(1),
+      fontWeight: 400,
       marginTop: rhythm(1)
+    },
+    h1: {
+      color: theme.secondary
     },
     'ul,ol': {
       marginLeft: rhythm(0.5)
