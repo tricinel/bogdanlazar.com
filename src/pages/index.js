@@ -91,7 +91,10 @@ const IndexPage = () => (
 
       <ul>
         <li>
-          <a href="" title="Taming Javascript">
+          <a
+            href="https://talks.bogdanlazar.com/taming-javascript"
+            title="Taming Javascript"
+          >
             Taming Javascript
           </a>{' '}
           on Feb 6, 2018 at{' '}
