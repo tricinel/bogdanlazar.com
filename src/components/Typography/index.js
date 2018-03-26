@@ -12,8 +12,12 @@ const Highlight = styled.span`
 const Heading = styled.h1`
   background-color: ${theme.primary};
   font-size: ${rhythm(1.6)};
-  display: inline-block;
+  display: block;
   padding: ${rhythm(0.5)} ${rhythm(1)};
+
+  @media screen and (min-width: 768px) {
+    display: inline-block;
+  }
 `;
 
 export { Highlight, Heading };
