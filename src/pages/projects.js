@@ -18,7 +18,7 @@ const IndexPage = () => (
         </li>
         <li>
           <a href="http://bandsawreviews.com/" title="Bandsawreviews.com">
-            Bandsawmanuals.com
+            Bandsawreviews.com
           </a>
         </li>
         <li>
