@@ -62,6 +62,14 @@ const IndexPage = () => (
       <ul>
         <li>
           <a
+            href="https://medium.com/@tricinel/screw-productivity-organize-your-day-for-happiness-848bb5f2d583"
+            title="Screw productivity! Organize your day for happiness!"
+          >
+            Screw productivity! Organize your day for happiness!
+          </a>
+        </li>
+        <li>
+          <a
             href="https://medium.com/@tricinel/be-comfortable-walking-away-16f96659febd"
             title="Be comfortable walking away"
           >
