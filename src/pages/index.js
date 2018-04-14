@@ -45,7 +45,13 @@ const IndexPage = () => (
           <Link to="/projects">Projects</Link>
         </li>
         <li>
-          <Link to="/wpresssmith">WpressSmith</Link>
+          <Link
+            aria-label="WordPressSmith"
+            title="WordPressSmith"
+            to="/wpresssmith"
+          >
+            WpressSmith
+          </Link>
         </li>
       </ul>
     </Section>
