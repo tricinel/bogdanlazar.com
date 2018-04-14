@@ -3,14 +3,14 @@ import React from 'react';
 import Header from '../Header';
 import Section from '../Layout/Section';
 import RecentPosts from './RecentPosts';
+import PostFooter from './PostFooter';
+import { Highlight } from '../Typography';
 
-const NowPageWrapper = ({ title, html, recentPosts }) => (
+const NowPageWrapper = ({ title, date, html, recentPosts }) => (
   <div>
     <Header title={title} back="/" />
 
-    <Section>
-      <section dangerouslySetInnerHTML={{ __html: html }} />
-    </Section>
+    <Section dangerouslySetInnerHTML={{ __html: html }} />
 
     <Section>
       <p>
@@ -22,6 +22,10 @@ const NowPageWrapper = ({ title, html, recentPosts }) => (
         as things change.
       </p>
     </Section>
+
+    <PostFooter>
+      <Highlight>Last updated {date}</Highlight>
+    </PostFooter>
 
     {recentPosts && <RecentPosts posts={recentPosts} />}
   </div>
