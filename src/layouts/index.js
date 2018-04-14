@@ -8,7 +8,9 @@ import FooterLinks from '../components/Footer';
 
 const TemplateWrapper = ({ children }) => (
   <Wrapper>
-    <Helmet title="BogdanLazar.com" />
+    <Helmet title="BogdanLazar.com">
+      <html lang="en" />
+    </Helmet>
     {children()}
     <FooterLinks />
   </Wrapper>
