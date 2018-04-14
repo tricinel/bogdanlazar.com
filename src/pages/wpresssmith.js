@@ -15,8 +15,9 @@ const IndexPage = () => (
       <h2>Wordpress themes</h2>
 
       <p>
-        I design Wordpress custom themes that fit each site&apos;s needs, so
-        that the theme is custom-tailored for your exact needs.
+        I design and build Wordpress custom themes that are custom-tailored for
+        your exact needs. Each theme is hand crafted and built on the Genesis
+        framework, making your site faster, more secure and SEO-friendly.
       </p>
     </Section>
 
@@ -25,7 +26,8 @@ const IndexPage = () => (
 
       <p>
         A theme dictates how a Wordpress website looks, while plugins add
-        functionality.
+        functionality. I write custom plugins that are theme-independent so that
+        they can be used with any theme you desire.
       </p>
     </Section>
 
@@ -33,8 +35,8 @@ const IndexPage = () => (
       <h2>Wordpress maintenance</h2>
 
       <p>
-        I will manage your Wordpress site, ensuring it has regular backups, all
-        themes and plugins are up to date and your website is malware-free.
+        I manage Wordpress sites, ensuring they have regular backups, all themes
+        and plugins are up to date and your website is malware-free.
       </p>
     </Section>
 
@@ -42,7 +44,11 @@ const IndexPage = () => (
       <h2>Find out more</h2>
 
       <p>
-        <a href="https://wpresssmith.com" title="WPressSmith.com">
+        <a
+          aria-label="WordPressSmith"
+          href="https://wpresssmith.com"
+          title="WPressSmith.com"
+        >
           WpressSmith.com
         </a>
       </p>
