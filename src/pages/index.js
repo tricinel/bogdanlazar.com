@@ -106,7 +106,7 @@ const IndexPage = () => (
       <ul>
         <li>
           <a
-            href="https://talks.bogdanlazar.com/taming-javascript"
+            href="http://talks.bogdanlazar.com/taming-javascript"
             title="Taming Javascript"
           >
             Taming Javascript
