@@ -28,7 +28,7 @@
     "lint": "frontwerk lint"
   },
   "devDependencies": {
-    "frontwerk": "^1.0.4",
+    "frontwerk": "^1.1.0",
     "prettier": "^1.11.1"
   }
 }
