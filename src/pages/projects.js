@@ -3,7 +3,7 @@ import React from 'react';
 import Header from '../components/Header';
 import Section from '../components/Layout/Section';
 
-const IndexPage = () => (
+const ProjectsPage = () => (
   <div>
     <Header title="My projects" back="/" />
 
@@ -53,4 +53,4 @@ const IndexPage = () => (
   </div>
 );
 
-export default IndexPage;
+export default ProjectsPage;

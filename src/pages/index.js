@@ -42,6 +42,9 @@ const IndexPage = () => (
           </a>
         </li>
         <li>
+          <Link to="/open-source">Open source</Link>
+        </li>
+        <li>
           <Link to="/projects">Projects</Link>
         </li>
         <li>

@@ -3,7 +3,7 @@ import React from 'react';
 import Header from '../components/Header';
 import Section from '../components/Layout/Section';
 
-const IndexPage = () => (
+const WpresssmithPage = () => (
   <div>
     <Header title="WPressSmith" back="/" />
 
@@ -56,4 +56,4 @@ const IndexPage = () => (
   </div>
 );
 
-export default IndexPage;
+export default WpresssmithPage;
