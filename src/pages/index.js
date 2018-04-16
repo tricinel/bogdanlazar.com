@@ -7,18 +7,25 @@ import { Highlight } from '../components/Typography';
 
 const IndexPage = () => (
   <div>
-    <Header title="I&apos;m a dreamer and a human" />
+    <Header title="Developer & Designer" />
 
     <Section>
       <p>
-        I design and I write code. It’s a daily challenge. And yes, I mess up
-        quite often. I&apos;m a <Highlight>human</Highlight>.
+        Hey, I&apos;m <Highlight>Bogdan</Highlight>, a designer and a developer.
+        I find problem solving interesting and I love working with people that
+        believe in what they do and inspire the same in others.
       </p>
 
       <p>
-        And I dream. I dream of Apple&apos;s great product experiences. I dream
-        of Musk’s Tesla or his solar powered batteries. I&apos;m a{' '}
-        <Highlight>dreamer</Highlight>.
+        I work <Highlight>remotely</Highlight> because I believe we do our best
+        work wherever we are the happiest!
+      </p>
+
+      <p>
+        I live in Dusseldorf, Germany with my lovely wife, Maria, and our crazy
+        dog, Scooby. If you&apos;re ever in the neighbourhood and in the mood
+        for <a href="http://www.uerige.de/en/">a great German beer</a> or some
+        wurst, stop by! I&apos;d love to meet you!
       </p>
 
       <p>
