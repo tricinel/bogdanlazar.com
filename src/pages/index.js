@@ -72,6 +72,14 @@ const IndexPage = () => (
       <ul>
         <li>
           <a
+            href="https://medium.com/@tricinel/how-to-feel-like-a-million-bucks-at-the-end-of-the-day-b5291bfd3c53"
+            title="How to feel like a million bucks at the end of the day"
+          >
+            How to feel like a million bucks at the end of the day
+          </a>
+        </li>
+        <li>
+          <a
             href="https://medium.com/@tricinel/screw-productivity-organize-your-day-for-happiness-848bb5f2d583"
             title="Screw productivity! Organize your day for happiness!"
           >
