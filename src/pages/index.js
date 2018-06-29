@@ -124,6 +124,16 @@ const IndexPage = () => (
       <ul>
         <li>
           <a
+            href="http://talks.bogdanlazar.com/the-great-gatsby"
+            title="The Great Gatsby"
+          >
+            The Great Gatsby
+          </a>{' '}
+          on Jul 28, 2018 at{' '}
+          <a href="https://twitter.com/reactjs_dus">@reactjs_dus</a>
+        </li>
+        <li>
+          <a
             href="http://talks.bogdanlazar.com/taming-javascript"
             title="Taming Javascript"
           >
