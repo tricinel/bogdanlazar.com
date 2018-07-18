@@ -72,6 +72,14 @@ const IndexPage = () => (
       <ul>
         <li>
           <a
+            href="https://medium.com/@tricinel/principles-of-good-design-b9fac1c44604"
+            title="10 Principles of Good Product Design"
+          >
+            10 Principles of Good Product Design
+          </a>
+        </li>
+        <li>
+          <a
             href="https://medium.com/@tricinel/how-to-feel-like-a-million-bucks-at-the-end-of-the-day-b5291bfd3c53"
             title="How to feel like a million bucks at the end of the day"
           >
@@ -92,14 +100,6 @@ const IndexPage = () => (
             title="Be comfortable walking away"
           >
             Be comfortable walking away
-          </a>
-        </li>
-        <li>
-          <a
-            href="https://medium.com/@tricinel/lessons-from-my-first-public-talk-ac7cb793339"
-            title="Lessons from my first public talk"
-          >
-            Lessons from my first public talk
           </a>
         </li>
         <li>
