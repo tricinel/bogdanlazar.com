@@ -10,7 +10,7 @@ export default NowPage;
 
 export const pageQuery = graphql`
   query nowQuery {
-    nowIndex: markdownRemark(frontmatter: { path: { eq: "/now/2018-06-29" } }) {
+    nowIndex: markdownRemark(frontmatter: { path: { eq: "/now/2018-07-18" } }) {
       html
       frontmatter {
         path
