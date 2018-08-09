@@ -22,9 +22,9 @@ const IndexPage = () => (
       </p>
 
       <p>
-        I live in Dusseldorf, Germany with my lovely wife, Maria, and our crazy
-        dog, Scooby. If you&apos;re ever in the neighbourhood and in the mood
-        for <a href="http://www.uerige.de/en/">a great German beer</a> or some
+        I live in Dusseldorf, Germany with my crazy dog, Scooby. If you&apos;re
+        ever in the neighbourhood and in the mood for{' '}
+        <a href="http://www.uerige.de/en/">a great German beer</a> or some
         wurst, stop by! I&apos;d love to meet you!
       </p>
 
