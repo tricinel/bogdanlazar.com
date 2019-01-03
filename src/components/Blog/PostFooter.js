@@ -1,6 +1,7 @@
+import styled from '@emotion/styled';
 import Section from '../Layout/Section';
 
-const PostFooter = Section.extend`
+const PostFooter = styled(Section)`
   font-size: 0.8rem;
 `;
 

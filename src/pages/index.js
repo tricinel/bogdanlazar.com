@@ -1,12 +1,13 @@
 import React from 'react';
-import Link from 'gatsby-link';
+import { Link } from 'gatsby';
 
 import Header from '../components/Header';
 import Section from '../components/Layout/Section';
 import { Highlight } from '../components/Typography';
+import Layout from '../layouts/layout';
 
 const IndexPage = () => (
-  <div>
+  <Layout>
     <Header title="Developer & Designer" />
 
     <Section>
@@ -146,7 +147,7 @@ const IndexPage = () => (
         </li>
       </ul>
     </Section>
-  </div>
+  </Layout>
 );
 
 export default IndexPage;

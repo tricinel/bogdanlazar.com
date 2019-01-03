@@ -2,9 +2,10 @@ import React from 'react';
 
 import Header from '../components/Header';
 import Section from '../components/Layout/Section';
+import Layout from '../layouts/layout';
 
 const WpresssmithPage = () => (
-  <div>
+  <Layout>
     <Header title="WPressSmith" back="/" />
 
     <Section>
@@ -53,7 +54,7 @@ const WpresssmithPage = () => (
         </a>
       </p>
     </Section>
-  </div>
+  </Layout>
 );
 
 export default WpresssmithPage;

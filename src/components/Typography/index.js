@@ -1,19 +1,18 @@
-import styled from 'styled-components';
+import styled from '@emotion/styled';
 
 import theme from '../../utils/theme';
-import { rhythm } from '../../utils/typography';
 
 const Highlight = styled.span`
   background-color: ${theme.primary};
   color: ${theme.secondary};
-  padding: ${rhythm(0.025)} ${rhythm(0.065)};
+  padding: 2px 4px;
 `;
 
 const Heading = styled.h1`
   background-color: ${theme.primary};
-  font-size: ${rhythm(1.6)};
+  font-size: 3.2em;
   display: block;
-  padding: ${rhythm(0.5)} ${rhythm(1)};
+  padding: 8px 16px;
 
   @media screen and (min-width: 768px) {
     display: inline-block;

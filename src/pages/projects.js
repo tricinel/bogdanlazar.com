@@ -2,9 +2,10 @@ import React from 'react';
 
 import Header from '../components/Header';
 import Section from '../components/Layout/Section';
+import Layout from '../layouts/layout';
 
 const ProjectsPage = () => (
-  <div>
+  <Layout>
     <Header title="My projects" back="/" />
 
     <Section>
@@ -50,7 +51,7 @@ const ProjectsPage = () => (
         </li>
       </ul>
     </Section>
-  </div>
+  </Layout>
 );
 
 export default ProjectsPage;

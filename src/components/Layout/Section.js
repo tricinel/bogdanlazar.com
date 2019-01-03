@@ -1,8 +1,7 @@
-import styled from 'styled-components';
-import { rhythm } from '../../utils/typography';
+import styled from '@emotion/styled';
 
 const Section = styled.section`
-  padding: 0 1.4em ${rhythm(1)} 1.4em;
+  padding: 0 1.4em 1em 1.4em;
 `;
 
 export default Section;

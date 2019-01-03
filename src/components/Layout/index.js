@@ -1,6 +1,4 @@
-import styled from 'styled-components';
-
-import { rhythm } from '../../utils/typography';
+import styled from '@emotion/styled';
 
 const Wrapper = styled.div`
   max-width: 860px;
@@ -13,7 +11,7 @@ const Wrapper = styled.div`
 `;
 
 const Header = styled.header`
-  margin-bottom: ${rhythm(1.5)};
+  margin-bottom: 16px;
   text-align: center;
 `;
 

@@ -3,9 +3,10 @@ import React from 'react';
 import Header from '../components/Header';
 import Section from '../components/Layout/Section';
 import { Highlight } from '../components/Typography';
+import Layout from '../layouts/layout';
 
 const OpenSource = () => (
-  <div>
+  <Layout>
     <Header title="Open source" back="/" />
 
     <Section>
@@ -64,7 +65,7 @@ const OpenSource = () => (
         </li>
       </ul>
     </Section>
-  </div>
+  </Layout>
 );
 
 export default OpenSource;

@@ -5,9 +5,10 @@ import Section from '../Layout/Section';
 import RecentPosts from './RecentPosts';
 import PostFooter from './PostFooter';
 import { Highlight } from '../Typography';
+import Layout from '../../layouts/layout';
 
 const NowPageWrapper = ({ title, date, html, recentPosts }) => (
-  <div>
+  <Layout>
     <Header title={title} back="/" />
 
     <Section dangerouslySetInnerHTML={{ __html: html }} />
@@ -28,7 +29,7 @@ const NowPageWrapper = ({ title, date, html, recentPosts }) => (
     </PostFooter>
 
     {recentPosts && <RecentPosts posts={recentPosts} />}
-  </div>
+  </Layout>
 );
 
 export default NowPageWrapper;
