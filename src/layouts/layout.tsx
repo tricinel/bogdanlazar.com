@@ -7,7 +7,7 @@ import './index.css';
 import Wrapper from '../components/Layout';
 import FooterLinks from '../components/Footer';
 
-const Layout = ({ children }) => (
+const Layout: React.SFC = ({ children }): JSX.Element => (
   <StaticQuery
     query={graphql`
       query SiteTitleQuery {

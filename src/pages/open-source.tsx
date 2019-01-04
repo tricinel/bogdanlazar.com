@@ -5,7 +5,7 @@ import Section from '../components/Layout/Section';
 import { Highlight } from '../components/Typography';
 import Layout from '../layouts/layout';
 
-const OpenSource = () => (
+const OpenSource: React.SFC = (): JSX.Element => (
   <Layout>
     <Header title="Open source" back="/" />
 

@@ -4,7 +4,12 @@ import { Link } from 'gatsby';
 import { Header as StyledHeader } from '../Layout';
 import { Heading } from '../Typography';
 
-const Header = ({ title, back }) => (
+interface IHeaderProps {
+  title: string;
+  back?: string;
+}
+
+const Header: React.SFC<IHeaderProps> = ({ title, back }): JSX.Element => (
   <StyledHeader>
     {back && (
       <p>

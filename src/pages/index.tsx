@@ -6,7 +6,7 @@ import Section from '../components/Layout/Section';
 import { Highlight } from '../components/Typography';
 import Layout from '../layouts/layout';
 
-const IndexPage = () => (
+const IndexPage: React.SFC = (): JSX.Element => (
   <Layout>
     <Header title="Developer & Designer" />
 

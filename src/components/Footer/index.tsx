@@ -2,7 +2,7 @@ import React from 'react';
 
 import { Footer } from '../Layout';
 
-const FooterLinks = () => (
+const FooterLinks: React.SFC = (): JSX.Element => (
   <Footer>
     <h3>Get in touch</h3>
     <ul>

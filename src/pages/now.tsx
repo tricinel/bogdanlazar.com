@@ -1,15 +1,27 @@
 import React from 'react';
+import { graphql } from 'gatsby';
 
 import NowPageWrapper from '../components/Blog/NowPageWrapper';
 
-const NowPage = ({
+interface INowPageProps {
+  data: {
+    nowIndex: {
+      frontmatter: {
+        date: string;
+      };
+      html: string;
+    };
+  };
+}
+
+const NowPage: React.SFC<INowPageProps> = ({
   data: {
     nowIndex: {
       frontmatter: { date },
       html
     }
   }
-}) => <NowPageWrapper title="Now" date={date} html={html} />;
+}): JSX.Element => <NowPageWrapper title="Now" date={date} html={html} />;
 
 export default NowPage;
 

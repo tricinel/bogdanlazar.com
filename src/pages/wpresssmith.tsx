@@ -4,7 +4,7 @@ import Header from '../components/Header';
 import Section from '../components/Layout/Section';
 import Layout from '../layouts/layout';
 
-const WpresssmithPage = () => (
+const WpresssmithPage: React.SFC = (): JSX.Element => (
   <Layout>
     <Header title="WPressSmith" back="/" />
 

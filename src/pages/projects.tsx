@@ -4,7 +4,7 @@ import Header from '../components/Header';
 import Section from '../components/Layout/Section';
 import Layout from '../layouts/layout';
 
-const ProjectsPage = () => (
+const ProjectsPage: React.SFC = (): JSX.Element => (
   <Layout>
     <Header title="My projects" back="/" />
 

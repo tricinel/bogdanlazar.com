@@ -4,7 +4,7 @@ import { Link } from 'gatsby';
 import Section from '../components/Layout/Section';
 import Layout from '../layouts/layout';
 
-const NotFoundPage = () => (
+const NotFoundPage: React.SFC = (): JSX.Element => (
   <Layout>
     <Section>
       <h1>NOT FOUND</h1>

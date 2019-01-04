@@ -6,8 +6,21 @@ import RecentPosts from './RecentPosts';
 import PostFooter from './PostFooter';
 import { Highlight } from '../Typography';
 import Layout from '../../layouts/layout';
+import { IPost } from '../../types/Post';
 
-const NowPageWrapper = ({ title, date, html, recentPosts }) => (
+interface INowPageWrapperProps {
+  title: string;
+  date: string;
+  html: string;
+  recentPosts?: IPost[];
+}
+
+const NowPageWrapper: React.SFC<INowPageWrapperProps> = ({
+  title,
+  date,
+  html,
+  recentPosts
+}): JSX.Element => (
   <Layout>
     <Header title={title} back="/" />
 
