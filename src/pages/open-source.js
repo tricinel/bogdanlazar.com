@@ -51,10 +51,10 @@ const OpenSource = () => (
         and the terminal. Currently, I support{' '}
         <a href="http://github.com/tricinel/edge-theme-sublime-text-3">
           Sublime Text 3
-        </a>, <a href="https://github.com/tricinel/edge-theme-vim">Vim</a>, as
-        well as{' '}
-        <a href="https://github.com/tricinel/edge-theme-iterm2">iTerm2</a>, with
-        Atom and VSCode in the works.
+        </a>
+        , <a href="https://github.com/tricinel/edge-theme-vim">Vim</a>, as well
+        as <a href="https://github.com/tricinel/edge-theme-iterm2">iTerm2</a>,
+        with Atom and VSCode in the works.
       </p>
 
       <ul>
